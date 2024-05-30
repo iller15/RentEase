@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
-body {
+.body-main {
 	font-family: "Inter", sans-serif;
 	background: #FFFFFF
 		
@@ -26,7 +26,7 @@ body {
 	
 }
 
-header {
+.header-main {
     background-color: white;
     padding: 10px 20px;
     display: flex;
@@ -59,6 +59,7 @@ header {
 	text-align: center;
 }
 
+
 .h1-1 {
 	color: #042746;
 	text-align: left;
@@ -75,9 +76,18 @@ header {
 	font-size: 26px;
 	font-style: normal;
 	font-weight: 200;
-;
-	
 }
+
+.h2-2-sesion {
+	color: #042746;
+	text-align: left;
+	padding: 10px 20px;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+
 .h3-1 {
 	color: #042746;
 	text-align: justify;
@@ -86,7 +96,6 @@ header {
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 200;
-	
 }
 
 
@@ -135,12 +144,12 @@ header {
 }
 
 
-.reg-buttons {
+.reg-buttons-style {
     display: flex;
     gap: 10px;
 	padding-left: 15px;
 }
-.reg-buttons button {
+.reg-buttons-style button {
     background-color:#4B5D6D;
     color: white;
     padding: 10px 20px;
@@ -149,13 +158,14 @@ header {
     cursor: pointer;
 }
 
-.reg-buttons1 {
+
+.reg-buttons1-style {
 	display: flex;
 	gap: 20px;
 	padding-left: 15px;
 	
 }
-.reg-buttons1 button {
+.reg-buttons1-style button {
 	background-color: #4B5D6D;
 	color: white;
 	padding: 10px 20px;
@@ -169,12 +179,11 @@ header {
 }
 
 
-
-
 div.nav-item {
 	display: flex;
-	flex-direction: column;         align-items: center;
-        }
+	flex-direction: column;
+	align-items: center;
+}
 
 .nav1{
 	display: flex;
