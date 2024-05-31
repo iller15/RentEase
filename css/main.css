@@ -3,6 +3,8 @@
 	margin: 0;
 	padding: 0;
 }
+
+
 .body-main {
 	font-family: "Inter", sans-serif;
 	background: #FFFFFF
@@ -34,6 +36,7 @@
     align-items: center;
 }
 
+/* Configuracion de imagen */
 
 .im-ret{
 	width: 270px;
@@ -44,6 +47,8 @@
 	width: 220px;
 	padding-right: 20%;	
 }
+
+/* Configuracion de imagen */
 
 .box0{
 	display: flex;
@@ -58,6 +63,8 @@
     align-items: center;
 	text-align: center;
 }
+
+/* Estilos de texto */
 
 
 .h1-1 {
@@ -111,8 +118,10 @@
 	font-weight: 700;
 }
 
+/* Estilos de texto */
 
 
+/* Estilos para los botones */
 
 .nav-buttons {
     display: flex;
@@ -178,6 +187,11 @@
 	height: 50px;	
 }
 
+/* Estilos para los botones */
+
+
+
+/* Estilos adicionales */
 
 div.nav-item {
 	display: flex;
@@ -207,3 +221,5 @@ z1, z2, z3, z4 {
 	font-style: normal;
 	font-weight: 200;
 }
+
+/* Estilos adicionales */
