@@ -5,6 +5,17 @@
 }
 
 
+.responsive-style{
+	
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	max-width: 1920px;
+	
+}
+
 .body-main {
 	font-family: "Inter", sans-serif;
 	background: #FFFFFF
@@ -35,6 +46,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 /* Configuracion de imagen */
 
