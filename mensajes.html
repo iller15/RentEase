@@ -9,24 +9,28 @@
 <body>
     <div class="container">
         <header>
-            <button id="back-button">ATRÁS</button>
+			<div >
+				<button class="back-btn" id="msgBacktoMain" >ATRÁS</button>
+			</div>
+			
             <img src="images/v84_5.png" alt="RentEase" class="logo">
         </header>
         <main>
             <div class="property-info">
                 <img src="images/casa.jpg" alt="Casa de 5 habitaciones" class="property-image">
-                <p class="property-description">casa de 5 habitaciones</p>
+                <p class="property-description">Casa de 5 habitaciones</p>
             </div>
-            <div class="chat-box">
+            <div class="chat-box" id="chat-box">
                 <div class="message agent-message">
-                    hola, ¿que información quieres saber?
+                    Hola, ¿que información desearias saber?
                 </div>
             </div>
         </main>
         <footer>
-            <input type="text" placeholder="mensaje..." class="message-input">
-            <button class="send-button">✔</button>
+            <input type="text" placeholder="mensaje..." class="message-input" id="message-input">
+            <button class="send-button" id="send-button">✔</button>
         </footer>
     </div>
+    <script src="script/script_msg.js"></script>
 </body>
 </html>

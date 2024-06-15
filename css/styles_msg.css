@@ -32,15 +32,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #d5e8d4;
-}
-
-#back-button {
-    background: none;
-    border: none;
-    color: #333;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #FFFFFF;
 }
 
 .logo {
@@ -117,5 +109,22 @@ footer {
     border: none;
     font-size: 24px;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+#back-button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-btn{
+	background-color:#4B5D6D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
