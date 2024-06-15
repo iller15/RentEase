@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (button.classList.contains('class3')) {
                 window.location.href = 'inicio_sesion.html';
             } else if (button.classList.contains('class4')) {
-                window.location.href = 'inicio_sesion.html';
+                window.location.href = 'mensajes.html';
             }
         });
     });
