@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-.body-main {
-font-family: "Inter", sans-serif;
-background: #FFFFFF
-  
-}
 router-outlet {
   flex: 1;
 }
@@ -16,6 +11,8 @@ router-outlet {
   margin-top: auto;
 }
 .app-container{
+  font-family: "Inter", sans-serif;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
