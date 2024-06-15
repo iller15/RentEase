@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body-main {
+font-family: "Inter", sans-serif;
+background: #FFFFFF
+  
+}
+router-outlet {
+  flex: 1;
+}
+.footer {
+  margin-top: auto;
+}
+.app-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 1920px;
+
+}
