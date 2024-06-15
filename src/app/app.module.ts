@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SesionRegistroComponent } from './sesion-registro/sesion-registro.component';
 import { MensajesComponent } from './mensajes/mensajes.component';
 import { LandingComponent } from './landing/landing.component';
+import { CalificacionPropietarioComponent } from './calificacion-propietario/calificacion-propietario.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LandingComponent } from './landing/landing.component';
     FooterComponent,
     SesionRegistroComponent,
     MensajesComponent,
-    LandingComponent
+    LandingComponent,
+    CalificacionPropietarioComponent
   ],
   imports: [
     BrowserModule,
@@ -26,3 +28,4 @@ import { LandingComponent } from './landing/landing.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

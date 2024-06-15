@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="header">
+      <img src="assets/v84_5.png" alt="RentEase" class="logo">
+    </div>
+    <div class="content">
+      <h2>califica a este propietario</h2>
+      <img src="assets/propietario.jpg" alt="Propiedad" class="property-img">
+      <div class="stars">
+        <span 
+          class="star" 
+          *ngFor="let star of [1, 2, 3, 4, 5]" 
+          (click)="selectStar(star)"
+          [class.selected]="star <= selectedValue">&#9733;</span>
+      </div>
+      <button class="confirm-btn">confirmar</button>
+    </div>
+  </div>
+  
