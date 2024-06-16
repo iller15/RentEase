@@ -1,5 +1,16 @@
 body {
     font-family: Arial, sans-serif;
+    display: flex; /* Enable flexbox layout on the body */
+    justify-content: center; /* Optional: adjust as needed */
+    align-items: self-start;
+    flex-wrap: wrap; 
+    
+  }
+
+  .calificacion{
+    margin: 10px;
+    width: 300px;
+
   }
   
   .container {
@@ -7,8 +18,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 300px;
+    
+    margin: 10px; /* Optional: add margin around containers */
     text-align: center;
+    box-sizing:border-box;
+    flex-direction: row;
+    display: flex;
   }
   
   .header {
@@ -22,6 +37,7 @@ body {
   
   .content {
     padding: 20px;
+    
   }
   
   .property-img {

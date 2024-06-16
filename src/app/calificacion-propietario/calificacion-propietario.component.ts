@@ -6,9 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './calificacion-propietario.component.css'
 })
 export class CalificacionPropietarioComponent {
-  selectedValue = 0;
-
-  selectStar(value: number): void {
-    this.selectedValue = value;
+  selectedValuePropietario = 0;
+  selectedValuePropiedad = 0;
+//identififer es para determinar que variable dentro de la clase queremos cambiar
+  selectStar(value: number, identifier:number): void {
+    if (identifier == 1){
+      this.selectedValuePropietario = value;
+    }
+    else if (identifier == 2){
+      this.selectedValuePropiedad = value;
+    }
   }
 }
