@@ -1,0 +1,19 @@
+.footer {
+    background-color: #B5E1C6;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

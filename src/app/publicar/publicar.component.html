@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Publicación</title>
+    <link rel="stylesheet" href="publicar.component.css">
+</head>
+<body>
+    <main>
+        <section class="formulario-publicacion">
+            <div class="logo">
+                <img src="assets/Imagen1.png" alt="RentEase">
+            </div>
+            <h1>Formulario de Publicación</h1>
+            <form>
+                <div class="imagenes">
+                    <img src="assets/Imagen2.png" alt="Descripción de la imagen" width="460" height="200 "class="absolute-image">
+
+                    <label>Imágenes relacionadas al inmueble</label>
+                    <div class="imagenes-opciones">
+                        <div class="radio-item">
+                            <input type="radio" id="fotos" name="imagenes" value="fotos">
+                            <label for="fotos">Fotos de las habitaciones</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="planos" name="imagenes" value="planos">
+                            <label for="planos">Planos y medidas del inmueble</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="otros" name="imagenes" value="otros">
+                            <label for="otros">Otros...</label>
+                        </div>
+                    </div>
+                    <select>
+                        <option value="jpg">jpg</option>
+                    </select>
+                    <button type="button">+</button>
+                </div>
+                <div class="ubicacion">
+                    <label>Ingrese la dirección o permita usar su ubicación actual</label>
+                    <input type="text" placeholder="Dirección">
+                </div>
+                <div class="descripcion">
+                    <label>Descripción del inmueble:</label>
+                    <textarea rows="4" cols="50"></textarea>
+                </div>
+                <div class="requisitos">
+                    <label>Requisitos, reglas y/o contratos:</label>
+                    <button type="button">jpg</button>
+                    <button type="button">PDF</button>
+                    <button type="button">...</button>
+                </div>
+                <button type="submit" class="publicar">Publicar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="calificacion">
+      <div class="header">
+        <img src="assets/v84_5.png" alt="RentEase" class="logo">
+      </div>
+      <div class="content">
+        <h2>Califica a este propietario</h2>
+        <img src="assets/propietario.jpg" alt="Propiedad" class="property-img">
+        <div class="stars">
+          <span 
+            class="star" 
+            *ngFor="let star of [1, 2, 3, 4, 5]" 
+            (click)="selectStar(star,1)"
+            [class.selected]="star <=  selectedValuePropietario">&#9733;</span>
+        </div>
+        <button class="confirm-btn">confirmar</button>
+      </div>
+    </div>
+    
+    <div class ="calificacion">
+      <div class="header">
+        <img src="assets/v84_5.png" alt="RentEase" class="logo">
+      </div>
+      <div class="content">
+        <h2>Califica a esta Propiedad</h2>
+        <img src="assets/casa.jpg" alt="Propiedad" class="property-img">
+        <div class="stars">
+          <span 
+            class="star" 
+            *ngFor="let star2 of [1, 2, 3, 4, 5]" 
+            (click)="selectStar(star2,2)"
+            [class.selected]="star2 <= selectedValuePropiedad">&#9733;</span>
+          </div>
+        <button class="confirm-btn">confirmar</button>
+      </div>
+    </div>
+</div>  

@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Enable flexbox layout on the body */
+    justify-content: center; /* Optional: adjust as needed */
+    align-items: self-start;
+    flex-wrap: wrap; 
+    
+  }
+
+  .calificacion{
+    margin: 10px;
+    width: 300px;
+
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+    margin: 10px; /* Optional: add margin around containers */
+    text-align: center;
+    box-sizing:border-box;
+    flex-direction: row;
+    display: flex;
+  }
+  
+  .header {
+    background-color: #e0f7fa;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  
+  .content {
+    padding: 20px;
+    
+  }
+  
+  .property-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .stars {
+    margin: 20px 0;
+  }
+  
+  .star {
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .star:hover,
+  .star.selected {
+    color: #ffb400;
+  }
+  
+  .confirm-btn {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #b3b3b3;
+  }
+  

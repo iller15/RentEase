@@ -1,0 +1,32 @@
+.header-main {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+	font-size: 26px;
+}
+.nav-buttons button {
+    background-color:#FFFFFF;
+    color: #042746;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.se-buttons {
+    display: flex;
+    gap: 10px;
+}
+.se-buttons button {
+    background-color:#4B5D6D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

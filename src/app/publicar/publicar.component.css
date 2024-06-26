@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(139, 240, 198);
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+    color: black;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.formulario-publicacion {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgb(122, 213, 236);
+
+}
+
+.logo img {
+    width: 150px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenes,
+.ubicacion,
+.descripcion,
+.requisitos {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.imagenes-opciones {
+    margin-top: 10px;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-item input {
+    margin-right: 10px;
+}
+
+button,
+select {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background-color: #cec5c5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+select:hover {
+    background-color: #ccc;
+}
+
+.publicar {
+    background-color: rgb(139, 240, 198);
+    color: black;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.publicar:hover {
+    background-color: rgb(139, 240, 198);
+    align-content: center;
+}
+.absolute-image {
+    position: absolute;
+    top: 240px;
+    left: 890px;
+}
